@@ -49,11 +49,5 @@ public class TestVectors : MonoBehaviour
     {
         GUI.Label(new Rect(20, 20, 600, 50), $"Vector {transform.position} Magnitude {transform.position.magnitude} Normalized {transform.position.normalized} Magnitude {transform.position.normalized.magnitude} ");
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }  
+    }    
 }
